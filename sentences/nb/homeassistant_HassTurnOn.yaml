@@ -3,14 +3,16 @@ intents:
   HassTurnOn:
     data:
       - sentences:
-        - "<åpne> <navn>"
+        - "<skru_på> <navn>"
+        - "[skru|slå] <navn> på"
+        - "<skru_på> <navn>"
       - sentences:
           - "<åpne> <navn>"
           - "<åpne> <navn> <i_på> <område>"
         response: cover
       - sentences:
-          - "<skru_på> garasje[dør|port][en]"
-          - "<skru_på> [dør|port][en] <i_på> garasje[n]"
+          - "<åpne> garasje[dør|port][en]"
+          - "<åpne> [dør|port][en] <i_på> garasje[n]"
         slots:
           domain: cover
           device_class: garage

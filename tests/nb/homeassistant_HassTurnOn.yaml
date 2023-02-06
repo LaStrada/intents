@@ -15,4 +15,11 @@ tests:
         domain: cover
         device_class: garage
     sentences:
-      - "Lukk garasjeport"
+      - "Åpne garasjeport"
+      - "Åpne garasjeporten"
+      - "Åpne garasjedør"
+      - "Åpne garasjedøren"
+      - "Åpne port i garasje"
+      - "Åpne port i garasjen"
+      - "Åpne dør i garasje"
+      - "Åpne døren i garasjen"

@@ -5,14 +5,21 @@ tests:
       slots:
         name: "fan.ceiling"
     sentences:
-    - "slå av tak vifte"
-    - "skru av tak viften"
-    - "slå tak vifte av"
-    - "skru tak viften av"
+      - "slå av takvifte"
+      - "skru av takviften"
+      - "slå takvifte av"
+      - "skru takviften av"
   - intent:
-      name: HassTurnOn
+      name: HassTurnOff
       slots:
         domain: cover
         device_class: garage
     sentences:
-      - "Åpne garasjeport"
+      - "Lukk garasjeport"
+      - "Lukk garasjeporten"
+      - "Lukk garasjedør"
+      - "Lukk garasjedøren"
+      - "Lukk port i garasje"
+      - "Lukk port i garasjen"
+      - "Lukk dør i garasje"
+      - "Lukk døren i garasjen"
