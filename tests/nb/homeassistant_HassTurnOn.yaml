@@ -9,3 +9,10 @@ tests:
       - "skru på takviften"
       - "slå takvifte på"
       - "skru takviften på"
+  - intent:
+      name: HassTurnOn
+      slots:
+        domain: cover
+        device_class: garage
+    sentences:
+      - "Lukk garasjeport"

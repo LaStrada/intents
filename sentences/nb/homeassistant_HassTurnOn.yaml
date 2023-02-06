@@ -2,6 +2,27 @@ language: 'nb'
 intents:
   HassTurnOn:
     data:
-    - sentences:
-      - "<skru_på> <navn>"
-      - "(skru|slå) <navn> på"
+      - sentences:
+        - "<åpne> <navn>"
+      - sentences:
+          - "<åpne> <navn>"
+          - "<åpne> <navn> <i_på> <område>"
+        response: cover
+      - sentences:
+          - "<skru_på> garasje[dør|port][en]"
+          - "<skru_på> [dør|port][en] <i_på> garasje[n]"
+        slots:
+          domain: cover
+          device_class: garage
+        response: cover
+      - sentences:
+          - "<åpne> <vindu> <i_på> <område>"
+          - "<åpne> <område> <vindu>"
+        slots:
+          domain: cover
+          device_class:
+            - window
+            - blind
+            - curtain
+            - shutter
+        response: cover_area
