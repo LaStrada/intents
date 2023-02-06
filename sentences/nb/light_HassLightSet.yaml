@@ -11,15 +11,14 @@ intents:
           - "sett <område> [til] [lysstyrke[n]] [til] <lysstyrke>"
         slots:
           name: all
-        response: brightness
+        response: brightness_area
       - sentences:
           - "sett <navn> farge til <farge>"
           - "sett [farge[n] <i_på>] <navn> til <farge>"
-          - "sett <område>[s][ ]lys"
         response: color
       - sentences:
           - "sett <farge> lys <i_på> <område>"
           - "sett <område>[s][ ]<lys> til <farge>"
         slots:
           name: all
-        response: color
+        response: color_area
