@@ -9,6 +9,7 @@ tests:
       - "skru på takviften"
       - "slå takvifte på"
       - "skru takviften på"
+    response: "takvifte ble slått på"
   - intent:
       name: HassTurnOn
       slots:
@@ -23,3 +24,4 @@ tests:
       - "Åpne port i garasjen"
       - "Åpne dør i garasje"
       - "Åpne døren i garasjen"
+    response: "Åpnet"

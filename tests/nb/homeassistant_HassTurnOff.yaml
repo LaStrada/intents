@@ -9,6 +9,7 @@ tests:
       - "skru av takviften"
       - "slå takvifte av"
       - "skru takviften av"
+    response: "takvifte ble slått av"
   - intent:
       name: HassTurnOff
       slots:
@@ -23,3 +24,4 @@ tests:
       - "Lukk port i garasjen"
       - "Lukk dør i garasje"
       - "Lukk døren i garasjen"
+    response: "Lukket"
