@@ -1,4 +1,4 @@
-language: nb
+language: "nb"
 responses:
   intents:
     HassClimateSetTemperature:
